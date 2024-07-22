@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sty-lo | Coșul tău</title>
+  <link rel="stylesheet" href="cos.css">
+</head>
+<body>
+  <h1>Coșul tău</h1>
+  
+  <div id="cart-items"></div>
+  
+  <div id="cart-total">
+    <p>Total: <span id="total-amount">0 RON</span></p>
+    <p>TVA (19%): <span id="vat-amount">0 RON</span></p>
+    <p><span id="total-vat-amount">0 RON</span></p>
+    <p>Tipul plății: Cash la livrare</p>
+    <button id="proceed-to-payment" onclick="sendOrderEmail()">Trimite comandă</button>
+  </div>
+
+  <button id="clear-cart">Golește coșul</button>
+
+  <script src="cos.js"></script>
+</body>
+</html>
