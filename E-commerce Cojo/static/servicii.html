@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> 👑 Servicii :: Premium Events :: Servicii 👑 </title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body class="bodyhidden">
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-logo">
+            <a href="./home.html"><img src="./media/ico/ccb08b3971647fc8531a9b77acac6d98f6bd2c6a.png" alt="Logo"></a>
+          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./home.html">Despre noi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galerie.html">Galerie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicii.html">Servicii</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="navbar-social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+          <div class="navbar-cart" id="cart">
+            <div class="cart-button">
+              <i class="fas fa-shopping-cart"></i>
+              <div class="cart-dropdown" id="cartDropdown">
+                <h1>Cos de cumparaturi</h1>
+                <div class="cart-items">
+                  <h1>Coșul dvs. este gol</h1>
+                  <!-- Serviciile vor fi adăugate dinamic folosind JavaScript -->
+                </div>
+                <div class="cart-total">
+                  <p>Total de plată: <span class="total-value"></span></p>
+                  <p>Total de plată (TVA incl.): <span class="total-vat-value"></span></p>
+                </div>
+                <button class="place-order-button" id="place-order"><a style="color: whitesmoke;" href="./servicii.html">Plaseaza comanda</a></button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>🍹- Servicii -🍹</h1>
+          <a href="#jumpto"><i class="fas fa-chevron-down"></i></a>
+        </div>
+      </div>
+    </header>
+    <div class="mode-toggle">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </div>
+    <div class="detalii" id="jumpto">
+      <div class="despre_firma">
+      <h1 class="detalii__title">Servicii populare:</h1>
+      <h2 class="detalii__title">Ospătar</h2>
+      <p class="detalii__text">Program: inainte cu cateva ore de inceperea evenimentului pentru pregatirea salonului - sfarsitul evenimentului, dupa strangerea salonului
+        <br>Asigura:</p>
+        <ul class="detalii__list">
+          <li class="detalii_serviciu">Pozitionarea meselor si scaunelor dupa schema deja stabilita, schimbarea fetelor de masa la nevoie</li>
+          <li class="detalii_serviciu">"Mise en place", mai exact, se vor pune pe mese: suportul de farfurie (daca este necesar), tacamurile, paharele, aranjamentele designului stabilit</li>
+          <li class="detalii_serviciu">Toate tacamurile, paharele si suporti de farfurii se vor polisa la nevoie</li>
+          <li class="detalii_serviciu">Pozitionarea si aranjarea mesei de pahare de sampanie(flute), pentru primirea invitatilor</li>
+          <li class="detalii_serviciu">Servirea la mese (servirea la pahar sau doar punerea sticlelor pe mese la dispozitia invitatilor)</li>
+          <li class="detalii_serviciu">Servirea flutelor de sampanie la primire</li>
+          <li class="detalii_serviciu">Servirea felurilor principale si desertului (tortul)</li>
+          <li class="detalii_serviciu">Debarasarea farfuriilor</li>
+          <li class="detalii_serviciu">Prezentarea tortului, taierea si servirea acestuia</li>
+          <li class="detalii_serviciu">Debarasarea meselor la sfarsit</li>
+        </ul>
+        <p class="detalii__text">Preț / om: 400 RON</p>
+        <button class="adauga_in_cos" id="ospt">Adaugă în coș</button>
+
+
+        <h2 class="detalii__title">Barman / Barista</h2>
+        <p class="detalii__text">Program: va veni cu cateva ore inainte de inceperea evenimentului si va pleca dupa ce se va termina evenimentul<br>Asigura:</p>
+          <ul class="detalii__list">
+            <li class="detalii_serviciu">Curatenie in bar, inainte, in timpul si la finalul evenimentului</li>
+            <li class="detalii_serviciu">Pregatirea barului cu tot ce este necesar avand in vedere meniul (pahare, cesti, farfurii cafea, fructe, ustensile de bar, gheata, soft uri, alcool, organizatoare, etc )</li>
+            <li class="detalii_serviciu">Efectuarea inventarului</li>
+            <li class="detalii_serviciu">Va veni cu ustensilele de bar proprii la nevoie</li>
+            <li class="detalii_serviciu">Prepararea cafelelor (espresso scurt, espresso lung, cappucino, latte, frappe)</li>
+            <li class="detalii_serviciu">Pregatirea bauturilor in functie de meniul stabilit</li>
+            <li class="detalii_serviciu">Aprovizionarea frigiderelor</li>          </ul>
+          <p class="detalii__text">Preț / om: 500 RON (în funcție de dificultatea meniului)</p>
+          <button class="adauga_in_cos" id="bar">Adaugă în coș</button>
+
+
+      </div>
+
+      <div class="detalii_misiune">
+      <h2 class="detalii__title">Misiunea noastră este să oferim o experiență de neuitat! </h2>
+      <p class="detalii__text">Cu o echipă de profesioniști experimentați în industria evenimentelor, vă garantăm o experiență de neuitat. De la planificare la implementare, suntem alături de clienții noștri în fiecare etapă a procesului de organizare a evenimentelor, asigurându-ne că fiecare detaliu este perfect și că evenimentul este un succes.<br>Pentru a ne asigura că evenimentul dvs. este exact așa cum doriți, oferim o gamă largă de servicii, inclusiv organizare și planificare, catering, servicii de ospătari și barmani, fotografie și video, servicii DJ și sonorizare, iluminare și multe altele.
+
+        Indiferent de evenimentul dvs., suntem aici pentru a vă ajuta să-l transformați într-un succes și să vă depășiți așteptările. Contactați-ne astăzi pentru a discuta cum putem aduce evenimentul dvs. la viață și pentru a afla mai multe despre serviciile noastre personalizate și competitive.</p>
+      </div>
+      
+      <div class="detalii_servicii">
+      <h2 class="detalii__title">Alte servicii la cerere</h2>
+      <ul class="detalii__list">
+        <li class="detalii__serviciu">Foto & Video (va pot trimite oferta la cerere)         <button class="adauga_in_cos" id="fv">Adaugă în coș</button></li>    
+        <li class="detalii__serviciu">Oglinda foto (va pot trimite oferta la cerere)         <button class="adauga_in_cos" id="ogl">Adaugă în coș</button>  </li>
+        <li class="detalii__serviciu">DJ  🎧                                                 <button class="adauga_in_cos" id="dj">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">MC 🎤                                                  <button class="adauga_in_cos" id="MC">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Sonorizari Profesionale 🔊                             <button class="adauga_in_cos" id="sound">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Schela Lumini 🚥🚥🚥                                  <button class="adauga_in_cos" id="sch">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Lumini Arhitecturale 🚥                                <button class="adauga_in_cos" id="lum">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Fum Greu 💨                                            <button class="adauga_in_cos" id="fum">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Gheata Carbonica ❄️                                    <button class="adauga_in_cos" id="ghc">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Solist Solista 🎙                                       <button class="adauga_in_cos" id="sol">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Karaoke 🎤🔊🎤                                         <button class="adauga_in_cos" id="kar">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Baloane Heliu Personaje 🎏                              <button class="adauga_in_cos" id="heli">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Animatori🤹‍♂️🤹‍♀️                                           <button class="adauga_in_cos" id="anim">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Ursitoare 🧚‍♀️🧚🏻‍♂️🧚🏻                                       <button class="adauga_in_cos" id="urs">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Masina Baloane Sapun 🧼                                 <button class="adauga_in_cos" id="sapu">Adaugă în coș</button></li> 
+        <li class="detalii__serviciu">Masina Ceata 🌫                                         <button class="adauga_in_cos" id="cetz">Adaugă în coș</button></li>
+        <li class="detalii__serviciu">Panou Floral 🌸🌼🌻                                     <button class="adauga_in_cos" id="fl">Adaugă în coș</button></li>
+        <a href="./contact.html" class="detalii_serviciu_redirect"><li class="detalii__serviciu">... și multe altele (contactează pentru detalii)</li></a>
+      </ul>
+    </div>
+
+    <div class="detalii_galerie">
+      <h1 class="detalii__title">Fă cunoștință cu echipa noastră!</h2>
+      <h2 class="detalii__title">Ospătarii</p>
+      <div class="detalii__grid__exp">
+        <a href="./media/img/employees/8.png" class="detalii__item">
+          <img src="./media/img/employees/8.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Cojocaru Răzvan Alexandru <br> 23 de ani <br> ( 4 ani vechime ) <br><br> Ospătar școlit</h3>
+          </div>
+        </a>
+        <a href="./media/img/employees/1.png" class="detalii__item">
+          <img src="./media/img/employees/1.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+          </div>
+        </a>
+        <a href="./media/img/employees/3.png" class="detalii__item">
+          <img src="./media/img/employees/3.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+          </div>
+        </a>
+        <a href="./media/img/employees/4.png" class="detalii__item">
+          <img src="./media/img/employees/4.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+          </div>
+        </a>
+        <a href="./media/img/employees/5.png" class="detalii__item">
+          <img src="./media/img/employees/5.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+          </div>
+        </a>
+        <a href="./media/img/employees/6.png" class="detalii__item">
+          <img src="./media/img/employees/6.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+          </div>
+        </a>
+        <a href="./media/img/employees/1.png" class="detalii__item">
+          <img src="./media/img/employees/1.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+          </div>
+        </a>
+        <a href="./media/img/employees/3.png" class="detalii__item">
+          <img src="./media/img/employees/3.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+          </div>
+        </a>
+        <a href="./media/img/employees/4.png" class="detalii__item">
+          <img src="./media/img/employees/4.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+          </div>
+        </a>
+        <a href="./media/img/employees/5.png" class="detalii__item">
+          <img src="./media/img/employees/5.png" alt="Photo 1">
+          <div class="overlay">
+            <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+          </div>
+        </a>
+
+      </div>
+      <h2 class="detalii__title">Barista & Barmanii</p>
+        <div class="detalii__grid__exp">
+          <a href="./media/img/employees/b1.jpg" class="detalii__item">
+            <img src="./media/img/employees/b1.jpg" alt="Photo 1">
+            <div class="overlay">
+              <h3>Cojocaru Răzvan Alexandru <br> 23 de ani <br> ( 4 ani vechime ) <br><br> Barman școlit</h3>
+            </div>
+          </a>
+          <a href="./media/img/employees/b2.jpg" class="detalii__item">
+            <img src="./media/img/employees/b2.jpg" alt="Photo 1">
+            <div class="overlay">
+              <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de barman </h3>
+            </div>
+          </a>
+          <a href="./media/img/employees/b3.jpg" class="detalii__item">
+            <img src="./media/img/employees/b3.jpg" alt="Photo 1">
+            <div class="overlay">
+              <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Barista </h3>
+            </div>
+          </a>
+          <a href="./media/img/employees/b4.jpg" class="detalii__item">
+            <img src="./media/img/employees/b4.jpg" alt="Photo 1">
+            <div class="overlay">
+              <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+            </div>
+          </a>
+          <a href="./media/img/employees/b5.jpg" class="detalii__item">
+            <img src="./media/img/employees/b5.jpg" alt="Photo 1">
+            <div class="overlay">
+              <h3>Gioni Începătoru <br> 18 ani <br> ( ucenic ) <br><br> Ajutor de ospătar </h3>
+            </div>
+          </a>
+</div>
+<p style="color:rgb(255, 113, 113)" class="detalii__text">Dacă v-au placut anumiți ospătari/barmani și doriți ca aceia să servească la evenimentul organizat de dvs., notați vă rog numele acestora și în timpul discuției despre eveniment, precizați numele acestora pentru a putea verifica în timp util disponibilitatea lor pentru eveniment.</p>  
+      
+      <h2 class="detalii__title">Pregătești un eveniment? Contactează-ne!</h2>
+      <p class="detalii__text">Pentru mai multe detalii și rezervări, sunați încrezători la numărul de telefon de mai jos sau trimiteți un mesaj pe WhatsApp/e-mail.</p>
+      <p class="detalii__text">Telefon: <a style="color: aliceblue;" href="https://wa.me/+40748459540">(+40)748.459.540 <i class="fab fa-whatsapp" style="color: #13b426; font-size: 2em;"></i></a></p>
+      <p class="detalii__text">Email: <a href="mailto:cojocaru.alexandru12@yahoo.com" class="detalii__item--redirect">cojocaru.alexandru12@yahoo.com</a></p>
+      <p class="detalii__text">Sediu social: <a class="detalii__item--redirect" title="Accesează Google Maps" href="https://www.google.com/maps/place/Strada+Liliacului+7,+Chitila+077045/@44.5086829,25.9846955,17z/data=!4m6!3m5!1s0x40b2046787f75d27:0xa772ea80a7f07fc!8m2!3d44.5086791!4d25.9872704!16s%2Fg%2F11k6bcf3t3?hl=ro">Str. Liliacului nr.7 - Chitila, Ilfov</a></p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.315880285898!2d25.98469547663042!3d44.50868289668221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b2046787f75d27%3A0xa772ea80a7f07fc!2sStrada%20Liliacului%207%2C%20Chitila%20077045!5e0!3m2!1sro!2sro!4v1683073027489!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="popup-message" onclick="hidePopupMessage()">
+      <p>Serviciu adăugat cu succes! - <a href="#cart">Mergi la coșul tău</a></p>
+    </div>
+    
+        
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./all.min.js"></script>
+    <script>$(document).ready(function() {
+      $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if( target.length ) {
+          event.preventDefault();
+          $('html, body').stop().animate({
+            scrollTop: target.offset().top
+          }, 750);
+        }
+      });
+    });
+    </script>
+    <script>
+let prevScrollPos = window.scrollY;
+
+window.addEventListener('scroll', function() {
+  const currentScrollPos = window.scrollY;
+
+  if (currentScrollPos <= prevScrollPos) {
+    document.querySelector('nav').classList.remove('hidden');
+  } else {
+    document.querySelector('nav').classList.add('hidden');
+  }
+  if (currentScrollPos >= prevScrollPos) {
+    document.querySelector('nav').classList.remove('visible');
+  } else {
+    document.querySelector('nav').classList.add('visible');
+  }
+
+  prevScrollPos = currentScrollPos;
+});
+
+    </script>
+    <script>
+$(document).ready(function() {
+  $('body').addClass('bodyhidden');
+
+  var mode = localStorage.getItem('mode');
+  if (mode === 'dark') {
+    $('body').addClass('dark-mode');
+    $('.mode-toggle').addClass('active');
+  } else {
+    $('body').addClass('light-mode');
+  }
+
+  $('body').removeClass('bodyhidden');
+
+  $('.mode-toggle').on('click', function() {
+    $('body').toggleClass('dark-mode');
+    $('body').toggleClass('light-mode');
+    $('.mode-toggle').toggleClass('active');
+
+    if ($('body').hasClass('dark-mode')) {
+      localStorage.setItem('mode', 'dark');
+    } else {
+      localStorage.setItem('mode', 'light');
+    }
+  });
+});
+    </script>
+    <script>
+      $(document).ready(function() {
+  if ($(window).scrollTop() > 0) {
+    $('html, body').animate({scrollTop: 0}, 'fast');
+  }
+});
+    </script>
+
+</body>
+</html>
