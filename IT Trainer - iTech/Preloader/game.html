@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<link rel="shortcut icon" href="./icon-256x256.ico" type="image/x-icon">
+    <title>Ghiceste numarul!</title>
+
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+        display: grid;
+        place-items: center;
+        background-image: url(./1.jpg);
+        height: 100vh;
+        user-select: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .game{
+        background-color: rgba(119, 0, 255, 0.801);
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        text-align: center;
+        overflow: hidden;
+        color: aliceblue;
+      }
+
+      .game h1,.form{
+        position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+      }
+
+      .game p{
+        position: relative;
+        top: -25%;
+      }
+
+      .game .form {
+        top: -25%;
+      }
+
+      .game .resultParas{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-500%);
+      }
+
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
+
+      .upper{
+        position: relative;
+        top: -150%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="game">
+      <h1>Ghiceste numarul!</h1>
+
+      <p>Am selectat un număr aleatoriu între 1 și 100. Vezi dacă îl poți ghici în 10 ture sau mai puțin. <br> Vă vom spune dacă estimarea a fost prea mare sau prea mică.</p>
+  
+      <div class="form">
+        <label for="guessField">Estimare: </label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Trimite" class="guessSubmit">
+      </div>
+  
+      <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+      </div>
+  
+    </div>
+
+    <script>
+
+let randomNumber = Math.floor(Math.random() * 100) + 1;
+
+const guesses = document.querySelector('.guesses');
+const lastResult = document.querySelector('.lastResult');
+const lowOrHi = document.querySelector('.lowOrHi');
+
+const guessSubmit = document.querySelector('.guessSubmit');
+const guessField = document.querySelector('.guessField');
+
+let guessCount = 1;
+let resetButton;
+guessField.focus();
+function checkGuess() {
+  const userGuess = Number(guessField.value);
+  if (guessCount === 1) {
+    guesses.textContent = 'Previous guesses: ';
+  }
+  guesses.textContent += userGuess + ' ';
+
+  if (userGuess === randomNumber) {
+    lastResult.textContent = 'Congratulations! You got it right!';
+    lastResult.style.backgroundColor = 'green';
+    lowOrHi.textContent = '';
+    setGameOver();
+  } else if (guessCount === 10) {
+    lastResult.textContent = '!!!GAME OVER!!!';
+    lowOrHi.textContent = '';
+    setGameOver();
+  } else {
+    lastResult.textContent = 'Wrong!';
+    lastResult.style.backgroundColor = 'red';
+    if(userGuess < randomNumber) {
+      lowOrHi.textContent = 'Last guess was too low!';
+    } else if(userGuess > randomNumber) {
+      lowOrHi.textContent = 'Last guess was too high!';
+    }
+  }
+
+  guessCount++;
+  guessField.value = '';
+  guessField.focus();
+}
+guessSubmit.addEventListener('click', checkGuess);
+
+function setGameOver() {
+  guessField.disabled = true;
+  guessSubmit.disabled = true;
+  resetButton = document.createElement('button');
+  resetButton.textContent = 'Start new game';
+  resetButton.classList.add('upper')
+  document.body.append(resetButton);
+  resetButton.addEventListener('click', resetGame);
+}
+
+function resetGame() {
+  guessCount = 1;
+
+  const resetParas = document.querySelectorAll('.resultParas p');
+  for (const resetPara of resetParas) {
+    resetPara.textContent = '';
+  }
+
+  resetButton.parentNode.removeChild(resetButton);
+
+  guessField.disabled = false;
+  guessSubmit.disabled = false;
+  guessField.value = '';
+  guessField.focus();
+
+  lastResult.style.backgroundColor = 'white';
+
+  randomNumber = Math.floor(Math.random() * 100) + 1;
+}
+    </script>
+  </body>
+</html>
