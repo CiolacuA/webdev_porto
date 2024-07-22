@@ -1,0 +1,607 @@
+# Translation of Plugins - Pinterest for WooCommerce - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - Pinterest for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-05 19:27:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Pinterest for WooCommerce - Stable (latest release)\n"
+
+#: class-pinterest-for-woocommerce.php:911
+msgid "There was an error getting the account data."
+msgstr "A fost o eroare la obținerea datelor contului."
+
+#: src/API/Auth.php:113
+msgid "There was an error getting the account data. Please try again later."
+msgstr "A fost o eroare la obținerea datelor contului. Te rog să reîncerci mai tîrziu."
+
+#: src/Admin/Tasks/Onboarding.php:53
+msgid "20 minutes"
+msgstr "20 de minute"
+
+#: class-pinterest-for-woocommerce.php:153
+msgid "Cloning this class is forbidden."
+msgstr "Clonarea acestei clase este interzisă."
+
+#: class-pinterest-for-woocommerce.php:162
+msgid "Unserializing instances of this class is forbidden."
+msgstr "Anularea serializării instanțelor acestei clase este interzisă."
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:488
+msgid "Cheatin' huh?"
+msgstr "Trișezi?"
+
+#: src/Notes/Collection/CatalogSyncErrors.php:88
+msgid "Review issues affecting your connection with Pinterest"
+msgstr "Examinează problemele care îți afectează conexiunea la Pinterest"
+
+#: src/Notes/Collection/CatalogSyncErrors.php:98
+msgid "Your product sync to Pinterest was unsuccessful. To complete your connection, Review and resolve issues in the extension."
+msgstr "Produsele nu au fost sincronizate cu Pinterest. Pentru a finaliza conexiunea, examinează și rezolvă problemele din extensie."
+
+#: src/Notes/Collection/CatalogSyncErrors.php:110
+msgid "Review issues"
+msgstr "Examinează problemele"
+
+#: src/Notes/Collection/CompleteOnboardingAfterThreeDays.php:41
+msgid "Complete setting up Pinterest for WooCommerce to get your catalog in front of a large, engaged audience who are ready to buy! Create or connect your Pinterest business account to sync your product catalog and turn your products into shoppable Pins."
+msgstr "Finalizează configurarea Pinterest pentru WooCommerce pentru a-ți afișa catalogul în fața unui segment de public mare și implicat care este gata să cumpere! Creează sau conectează-ți contul business Pinterest pentru a sincroniza catalogul de produse și a transforma produsele în Pinuri cu produse care pot fi cumpărate."
+
+#: src/Notes/Collection/EnableCatalogSync.php:62
+msgid "Notice: Your products aren’t synced on Pinterest"
+msgstr "Notificare: produsele tale nu sunt sincronizate pe Pinterest"
+
+#: src/Notes/Collection/EnableCatalogSync.php:72
+msgid "Your Catalog sync with Pinterest has been disabled. Select “Enable Product Sync” to sync your products and reach shoppers on Pinterest."
+msgstr "Sincronizarea catalogului cu Pinterest a fost dezactivată. Selectează „Activează sincronizarea produselor” pentru a sincroniza produsele și pentru a te adresa cumpărătorilor pe Pinterest."
+
+#: src/Notes/Collection/EnableCatalogSync.php:84
+msgid "Enable Sync"
+msgstr "Activează sincronizarea"
+
+#: views/inputs/google-category.php:36
+msgid "Search for a category…"
+msgstr "Caută o categorie…"
+
+#: src/Notes/Collection/AbstractCompleteOnboarding.php:72
+msgid "Complete setup"
+msgstr "Finalizează inițializarea"
+
+#: src/Notes/Collection/CompleteOnboardingAfterThreeDays.php:31
+msgid "Reach more shoppers by connecting with Pinterest"
+msgstr "Atragi mai mulți cumpărători prin conectarea la Pinterest"
+
+#: src/Notes/Collection/CompleteOnboardingReminderAfterSevenDays.php:31
+msgid "Reminder: Connect Pinterest for WooCommerce"
+msgstr "Reamintire: conectează Pinterest pentru WooCommerce"
+
+#: src/Notes/Collection/CompleteOnboardingReminderAfterSevenDays.php:41
+msgid "Finish setting up Pinterest for WooCommerce to reach over 400 million shoppers and inspire their next purchase."
+msgstr "Finalizează configurarea Pinterest pentru WooCommerce ca să ajungi la peste 400 de milioane de cumpărători și să le oferi inspirație pentru următoarele lor cumpărături."
+
+#. Translators: 1: Request method 2: Request endpoint 3: Response status code
+#. 4: Response message
+#: src/API/Base.php:153
+msgid ""
+"%1$s Request: %2$s\n"
+"Status Code: %3$s\n"
+"API response: %4$s"
+msgstr ""
+"Cerere %1$s: %2$s\n"
+"Cod stare: %3$s\n"
+"Răspuns API: %4$s"
+
+#. Translators: 1: Request method 2: Request endpoint 3: Response status code
+#. 4: Response message 5: Pinterest code
+#: src/API/Base.php:131
+msgid ""
+"%1$s Request: %2$s\n"
+"Status Code: %3$s\n"
+"API response: %4$s\n"
+"Pinterest Code: %5$s"
+msgstr ""
+"Cerere %1$s: %2$s\n"
+"Cod stare: %3$s\n"
+"Răspuns API: %4$s\n"
+"Cod Pinterest: %5$s"
+
+#: src/API/Options.php:68
+msgid "There was an error saving the settings."
+msgstr "A fost o eroare la salvarea setărilor."
+
+#: src/API/Options.php:62
+msgid "Missing option parameters."
+msgstr "Lipsesc parametrii pentru opțiune."
+
+#. translators: 1: temporary file name 2: final file name
+#: src/FeedFileOperations.php:135
+msgid "Could not rename %1$s to %2$s"
+msgstr "Nu am putut să redenumesc %1$s în %2$s"
+
+#. translators: error message with file path
+#: src/FeedFileOperations.php:114
+msgid "Temporary file: %s is not writeable."
+msgstr "Fișier temporar: %s nu poate fi scris."
+
+#. translators: error message with file path
+#: src/FeedFileOperations.php:104
+msgid "Could not open temporary file %s for writing"
+msgstr "Nu am putut să deschid fișierul temporar %s pentru scriere"
+
+#: src/FeedGenerator.php:213
+msgid "Feed generated successfully."
+msgstr "Am generat cu succes fluxul."
+
+#: src/FeedGenerator.php:152
+msgid "Feed generation start. Preparing temporary files."
+msgstr "Am început generarea fluxului. Pregătesc fișierele temporare."
+
+#: src/FeedGenerator.php:198
+msgid "Feed generation end. Moving files to the final destination."
+msgstr "Am terminat generarea fluxului. Mut fișierele la destinația finală."
+
+#. translators: time in the format hours:minutes:seconds
+#: src/FeedGenerator.php:119
+msgid "Feed scheduled to run at %s."
+msgstr "Fluxul este programat să ruleze la %s."
+
+#: src/FeedGenerator.php:141
+msgid "Feed generation queued."
+msgstr "Am pus generarea fluxului în coadă."
+
+#. translators: plugin version.
+#: src/PluginUpdate.php:157
+msgid "Plugin updated to version: %s."
+msgstr "Am actualizat modulul la versiune %s."
+
+#. translators: %s product id
+#: src/ProductsXmlFeed.php:267
+msgid "The product [%s] has a description longer than the allowed limit."
+msgstr "Produsul [%s] are o descriere mai lungă decât limita permisă."
+
+#. translators: 1: error message.
+#: src/Shipping.php:88
+msgid ""
+"There was an error in shipping information generation for the feed file:\n"
+"%s"
+msgstr ""
+"A fost o eroare la generarea informațiilor de livrare pentru fișierul fluxului:\n"
+"%s"
+
+#: src/Admin/Product/Attributes/AttributesForm.php:128
+msgid "Default"
+msgstr "Implicit"
+
+#: src/Admin/Product/Attributes/Input/ConditionInput.php:27
+msgid "Condition"
+msgstr "Stare"
+
+#: src/Admin/Product/Attributes/Input/GoogleCategoryInput.php:27
+msgid "Google Category"
+msgstr "Categorie Google"
+
+#: src/Admin/Product/Attributes/Input/GoogleCategoryInput.php:28
+msgid "Categorization of the product based on the standardized Google Product Taxonomy."
+msgstr "Clasificarea produsului pe baza taxonomiei standardizate a produselor Google."
+
+#: src/Feeds.php:46 src/Feeds.php:88
+msgid "Wrong feed info."
+msgstr "Informații incorecte despre flux."
+
+#: src/Product/Attributes/Condition.php:48
+msgid "New"
+msgstr "Nou"
+
+#: src/Product/Attributes/Condition.php:49
+msgid "Refurbished"
+msgstr "Recondiționat"
+
+#: src/Product/Attributes/Condition.php:50
+msgid "Used"
+msgstr "Utilizat"
+
+#: views/attributes/tab-panel.php:30
+msgid "Product attributes"
+msgstr "Atribute produs"
+
+#. Translators: The error description
+#: src/Tracking.php:622
+msgid "Could not connect the advertiser. Try to connect from the connection tab. [%s]"
+msgstr "Nu am putut să conectez agentul de publicitate. Încearcă conectarea din fila pentru conexiuni. [%s]"
+
+#. Translators: The error description
+#: src/Tracking.php:617
+msgid "Advertiser connected successfully"
+msgstr "Am conectat cu succes agentul de publicitate"
+
+#: src/API/AdvertiserConnect.php:154 src/API/AdvertiserConnect.php:168
+msgid "The advertiser could not be disconnected from Pinterest."
+msgstr "Agentul de publicitate nu a putut fi deconectat de la Pinterest."
+
+#: src/API/AdvertiserConnect.php:105
+msgid "Incorrect advertiser ID."
+msgstr "ID-ul agentului de publicitate este incorect."
+
+#: src/API/AdvertiserConnect.php:101
+msgid "The advertiser could not be connected to Pinterest."
+msgstr "Agentul de publicitate nu a putut fi conectat la Pinterest."
+
+#. Translators: The error description as returned from the API
+#: src/API/AdvertiserConnect.php:81
+msgid "Could not connect advertiser with Pinterest. [%s]"
+msgstr "Nu am putut să conectez agentul de publicitate la Pinterest. [%s]"
+
+#: class-pinterest-for-woocommerce.php:694
+#: class-pinterest-for-woocommerce.php:777
+msgid "There was an error disconnecting the Advertiser. Please try again."
+msgstr "A fost o eroare la deconectarea agentului de publicitate. Te rog încearcă din nou."
+
+#: class-pinterest-for-woocommerce.php:692
+msgid "There was an error disconnecting the Advertiser."
+msgstr "A fost o eroare la deconectarea agentului de publicitate."
+
+#: src/Feeds.php:58
+msgid "No feed found with the requested ID."
+msgstr "Nu am găsit niciun flux cu ID-ul cerut."
+
+#: src/API/FeedState.php:411
+msgid "The feed is queued for processing."
+msgstr "Fluxul este în coada pentru procesare."
+
+#: src/Admin/Product/Attributes/Input/ConditionInput.php:28
+msgid "Condition or state of the item."
+msgstr "Condiția sau starea elementului."
+
+#: class-pinterest-for-woocommerce.php:677
+msgid "Response error on disconnect merchant."
+msgstr "Eroare în răspuns la deconectarea comerciantului."
+
+#. translators: 1: Time string, 2: number of products, 3: opening anchor tag,
+#. 4: closing anchor tag
+#: src/API/FeedState.php:143
+msgid "Last activity: %1$s ago - Wrote %2$s product to %3$sfeed file%4$s."
+msgid_plural "Last activity: %1$s ago - Wrote %2$s products to %3$sfeed file%4$s."
+msgstr[0] "Ultima activitate: acum %1$s - am scris %2$s produs în %3$sfișierul fluxului%4$s."
+msgstr[1] "Ultima activitate: acum %1$s - am scris %2$s produse în %3$sfișierul fluxului%4$s."
+msgstr[2] "Ultima activitate: acum %1$s - am scris %2$s de produse în %3$sfișierul fluxului%4$s."
+
+#. translators: 1: Time string, 2: total number of products, 3: opening anchor
+#. tag, 4: closing anchor tag
+#: src/API/FeedState.php:163
+msgid "Successfully generated %1$s ago - Wrote %2$s product to %3$sfeed file%4$s"
+msgid_plural "Successfully generated %1$s ago - Wrote %2$s products to %3$sfeed file%4$s"
+msgstr[0] "Generat cu succes acum %1$s - am scris %2$s produs în %3$sfișierul fluxului%4$s"
+msgstr[1] "Generat cu succes acum %1$s - am scris %2$s produse în %3$sfișierul fluxului%4$s"
+msgstr[2] "Generat cu succes acum %1$s - am scris %2$s de produse în %3$sfișierul fluxului%4$s"
+
+#: src/Merchants.php:79
+msgid "There was an error trying to get the merchant object."
+msgstr "A fost o eroare la încercarea de a primi obiectul comerciant."
+
+#: src/Merchants.php:71
+msgid "Wrong response when trying to create or update merchant."
+msgstr "Răspuns incorect la încercarea de a crea sau actualiza comerciantul."
+
+#: views/attributes/tab-panel.php:31
+msgid "As this is a variable product, you can add additional product attributes by going to Variations > Select one variation > Pinterest."
+msgstr "Deoarece aceasta este un produs variabil, poți să adaugi atribute suplimentare pentru produs mergând la Variații > Selectează o variație > Pinterest."
+
+#. Plugin Name of the plugin
+#: src/MultichannelMarketing/PinterestChannel.php:62
+msgid "Pinterest for WooCommerce"
+msgstr "Pinterest pentru WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/pinterest-for-woocommerce/"
+msgstr "https://woocommerce.com/products/pinterest-for-woocommerce/"
+
+#. Author of the plugin
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:64
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:68
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:95
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:99
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:217
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:224
+#: views/attributes/variations-form.php:32 assets/build/setup-guide.js:6
+#: assets/source/setup-guide/index.js:52
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:79
+#: assets/build/setup-guide.js:4
+#: assets/source/components/navigation-classic/main-tab-nav.js:16
+msgid "Catalog"
+msgstr "Catalog"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:110
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:158
+msgid "Setup Pinterest"
+msgstr "Configurează Pinterest"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:127
+#: assets/build/setup-guide.js:4 assets/build/setup-guide.js:6
+#: assets/source/components/navigation-classic/main-tab-nav.js:26
+#: assets/source/setup-guide/index.js:82
+msgid "Connection"
+msgstr "Conexiune"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:140
+#: assets/build/setup-guide.js:4 assets/build/setup-guide.js:6
+#: assets/source/components/navigation-classic/main-tab-nav.js:21
+#: assets/source/setup-guide/index.js:95
+msgid "Settings"
+msgstr "Setări"
+
+#: src/API/Base.php:289
+msgid "Reconnect to your Pinterest account"
+msgstr "Reconectează-te la contul Pinterest"
+
+#: src/API/Base.php:415 src/API/Base.php:516 src/Merchants.php:139
+msgid "Auto-created by Pinterest for WooCommerce"
+msgstr "Creat automat de Pinterest pentru WooCommerce"
+
+#: src/API/FeedIssues.php:88
+msgid "Error downloading feed issues file from Pinterest."
+msgstr "Eroare la descărcarea fișierului cu problemele din flux de la Pinterest."
+
+#: src/API/FeedIssues.php:139
+msgid "(Variation)"
+msgstr "(Variație)"
+
+#: src/API/FeedState.php:95 src/API/FeedState.php:200
+msgid "XML feed"
+msgstr "Flux XML"
+
+#: src/API/FeedState.php:97
+msgid "Product sync is disabled."
+msgstr "Sincronizarea produselor este dezactivată."
+
+#: src/API/FeedState.php:159
+msgid "Up to date"
+msgstr "Actualizat"
+
+#: src/API/FeedState.php:179
+msgid "Feed generation will start shortly."
+msgstr "Generarea fluxului va începe în scurt timp."
+
+#: src/API/FeedState.php:184
+msgid "Feed configuration will start shortly."
+msgstr "Configurarea fluxului va începe în scurt timp."
+
+#. Translators: %1$s Time string, %2$s error message
+#: src/API/FeedState.php:192
+msgid "Last activity: %1$s ago - %2$s"
+msgstr "Ultima activitate: acum %1$s - %2$s"
+
+#: src/API/FeedState.php:226 src/API/FeedState.php:270
+msgid "Product feed not yet configured on Pinterest."
+msgstr "Fluxul de produse nu a fost configurat încă pe Pinterest."
+
+#: src/API/FeedState.php:238
+msgid "Product feed not active."
+msgstr "Fluxul de produse nu este activ."
+
+#: src/API/FeedState.php:242
+msgid "Product feed configured for ingestion on Pinterest"
+msgstr "Fluxul de produse a fost configurat pentru ingestie pe Pinterest"
+
+#. Translators: %1$s The URL of the product feed, %2$s Time string
+#: src/API/FeedState.php:251
+msgid "Pinterest will fetch your <a href=\"%1$s\" target=\"_blank\">product feed</a> every %2$s"
+msgstr "Pinterest îți va prelua <a href=\"%1$s\" target=\"_blank\">fluxul de produse</a> la fiecare %2$s"
+
+#: src/API/FeedState.php:262
+msgid "Product feed pending approval on Pinterest."
+msgstr "Fluxul de produse este în așteptarea aprobării pe Pinterest."
+
+#: src/API/FeedState.php:266
+msgid "Product feed declined by Pinterest"
+msgstr "Fluxul de produse a fost refuzat de Pinterest"
+
+#: src/API/FeedState.php:371
+msgid "Feed is not registered with Pinterest."
+msgstr "Fluxul nu este înregistrat pe Pinterest."
+
+#: src/API/FeedState.php:387
+msgid "Automatically pulled by Pinterest"
+msgstr "Extras automat de Pinterest"
+
+#: src/API/FeedState.php:407
+msgid "Feed is under review."
+msgstr "Fluxul este în curs de examinare."
+
+#: src/API/FeedState.php:415
+msgid "Feed ingestion failed."
+msgstr "Ingestia fluxului nu a reușit."
+
+#. Translators: %1$s Time difference string
+#: src/API/FeedState.php:418
+msgid "Last attempt: %1$s ago"
+msgstr "Ultima încercare: acum %1$s"
+
+#: src/API/FeedState.php:429
+msgid "Unknown status in workflow."
+msgstr "Stare necunoscută în fluxul de lucru."
+
+#. Translators: The error message as returned by the Pinterest API
+#: src/FeedStatusService.php:223
+msgid "Pinterest returned: %1$s"
+msgstr "Pinterest a returnat: %1$s"
+
+#: class-pinterest-for-woocommerce.php:369
+msgid "Pinterest for WooCommerce requires WooCommerce Admin to be enabled."
+msgstr "Pinterest pentru WooCommerce are nevoie ca modulul WooCommerce Admin să fie activat."
+
+#. Translators: The minimum WC version
+#: class-pinterest-for-woocommerce.php:365
+msgid "Pinterest for WooCommerce requires a minimum WooCommerce version of %s."
+msgstr "Pinterest pentru WooCommerce are nevoie de minim versiunea WooCommerce %s."
+
+#. Translators: The minimum WP version
+#: class-pinterest-for-woocommerce.php:360
+msgid "Pinterest for WooCommerce requires a minimum WordPress version of %s."
+msgstr "Pinterest pentru WooCommerce are nevoie de minim versiunea WordPress %s."
+
+#. Translators: The minimum PHP version
+#: class-pinterest-for-woocommerce.php:355
+msgid "Pinterest for WooCommerce requires a minimum PHP version of %s."
+msgstr "Pinterest pentru WooCommerce are nevoie de minim versiunea PHP %s."
+
+#: class-pinterest-for-woocommerce.php:170
+msgid "Only a single instance of this class is allowed. Use singleton."
+msgstr "Este permisă numai o singură instanță pentru această clasă. Folosește singleton."
+
+#. Translators: The error description
+#: class-pinterest-for-woocommerce.php:626
+msgid "Could not decrypt the Pinterest API access token. Try reconnecting to Pinterest. [%s]"
+msgstr "Nu am putut să decriptez tokenul de acces la API-ul Pinterest. Încearcă reconectarea la Pinterest. [%s]"
+
+#: class-pinterest-for-woocommerce.php:1159
+msgid "Pinterest for WooCommerce verification page"
+msgstr "Pagină verificare Pinterest pentru WooCommerce"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:170
+msgid "Landing page"
+msgstr "Pagină de destinație"
+
+#. translators: 1: composer command. 2: plugin directory
+#: pinterest-for-woocommerce.php:79 pinterest-for-woocommerce.php:97
+msgid "Your installation of the Pinterest for WooCommerce plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Instalarea modulului Pinterest pentru WooCommerce este incompletă. Te rog rulează %1$s în directorul %2$s."
+
+#: src/API/Advertisers.php:59 src/API/Tags.php:58
+#: src/PinterestSyncSettings.php:113
+msgid "Response error"
+msgstr "Eroare în răspuns"
+
+#: src/API/Advertisers.php:55
+msgid "No advertiser exists."
+msgstr "Nu există niciun agent de publicitate."
+
+#: src/API/Auth.php:97
+msgid "Empty response, please try again later."
+msgstr "Răspunsul este gol, te rog încearcă din nou mai târziu."
+
+#: src/API/Auth.php:74
+msgid "Something went wrong with your attempt to authorize this App. Please try again."
+msgstr "Ceva nu a mers bine la încercarea ta de a autoriza această aplicație. Te rog încearcă din nou."
+
+#: src/API/Base.php:344
+msgid "Empty body"
+msgstr "Corpul este gol"
+
+#: src/API/FeedIssues.php:132
+msgid "Invalid product"
+msgstr "Produsul nu este valid"
+
+#. Translators: The error description as returned from the API
+#: src/API/FeedIssues.php:114
+msgid "Could not get current feed's issues. [%s]"
+msgstr "Nu am putut prelua problemele actuale ale fluxului. [%s]"
+
+#: src/Feeds.php:219
+msgid "Could not get feed report from Pinterest."
+msgstr "Nu am putut prelua raportul privind fluxul de la Pinterest."
+
+#: src/API/FeedState.php:139
+msgid "Feed generation in progress."
+msgstr "Generarea fluxului este în desfășurare."
+
+#. Translators: The error description as returned from the API
+#: src/API/FeedState.php:115
+msgid "Error getting feed's state. [%s]"
+msgstr "Eroare la preluarea stării fluxului. [%s]"
+
+#. translators: 1: The URL of the settings page
+#: src/ProductSync.php:191
+msgid "Visit the <a href=\"%1$s\">settings</a> page to enable it."
+msgstr "Mergi la pagina <a href=\"%1$s\">setări</a> pentru a activa."
+
+#: src/API/FeedState.php:380
+msgid "Response error. Feed report contains no feed workflow."
+msgstr "Eroare în răspuns. Raportul despre flux nu conține niciun flux de lucru."
+
+#: src/API/FeedState.php:275
+msgid "Remote feed setup"
+msgstr "Inițializare flux de la distanță"
+
+#: src/API/FeedState.php:230
+msgid "Could not get merchant info."
+msgstr "Nu am putut să preiau informațiile despre comercianți."
+
+#: src/API/FeedState.php:189 src/API/FeedState.php:234 src/Feeds.php:42
+#: src/Feeds.php:84
+msgid "Could not get feed info."
+msgstr "Nu am putut să preiau informațiile despre flux."
+
+#: src/API/FeedState.php:397
+msgid "Processing"
+msgstr "Procesez"
+
+#: src/API/HealthCheck.php:65
+msgid "Could not get approval status from Pinterest."
+msgstr "Nu am putut să obțin aprobarea de la Pinterest."
+
+#: src/API/FeedState.php:456
+msgid "Remote sync status"
+msgstr "Stare sincronizare de la distanță"
+
+#. Translators: The status text returned by the API.
+#: src/API/FeedState.php:432
+msgid "API returned an unknown status: %1$s"
+msgstr "API-ul a returnat o stare necunoscută: %1$s"
+
+#: src/API/Tags.php:52
+msgid "Advertiser missing"
+msgstr "Lipsește agentul de publicitate"
+
+#: src/Merchants.php:107
+msgid "Response error when trying to get advertisers."
+msgstr "Eroare în răspuns la încercarea de preluare a agenților de publicitate."
+
+#: src/Merchants.php:113
+msgid "No merchant returned in the advertiser's response."
+msgstr "Nu a fost returnat niciun comerciant în răspunsul agentului de publicitate."
+
+#. Translators: The error description as returned from the API
+#: src/API/HealthCheck.php:79
+msgid "Could not fetch account status. [%s]"
+msgstr "Nu am putut să preiau starea contului. [%s]"
+
+#. Translators: The error description as returned from the API
+#: src/API/Tags.php:79
+msgid "No tracking tag available. [%s]"
+msgstr "Nu este disponibil niciun tag de urmărire. [%s]"
+
+#: src/Crypto.php:95 src/Crypto.php:139
+msgid "Could not decrypt key value. Try reconnecting to Pinterest."
+msgstr "Nu am putut să decriptez valoarea cheii. Încearcă reconectarea la Pinterest."
+
+#: src/Merchants.php:84 src/Merchants.php:172
+msgid "Response error when trying to create a merchant or update the existing one."
+msgstr "Eroare în răspuns în timpul încercării de a crea un comerciant sau la actualizarea unuia existent."
+
+#: src/FeedRegistration.php:96
+msgid "Could not register feed."
+msgstr "Nu am putut să înregistrez fluxul."
+
+#. Translators: The error description as returned from the API
+#: src/API/Businesses.php:55
+msgid "Could not fetch linked business accounts for Pinterest account ID. [%s]"
+msgstr "Nu am putut să preiau conturile Business conectate pentru ID-ul contului Pinterest. [%s]"
+
+#. Translators: The error description as returned from the API
+#: src/API/Advertisers.php:72
+msgid "Could not fetch advertisers for Pinterest account ID. [%s]"
+msgstr "Nu am putut să preiau agenții de publicitate pentru ID-ul contului Pinterest. [%s]"

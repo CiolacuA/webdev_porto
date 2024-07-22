@@ -1,0 +1,61 @@
+[05-Jun-2023 02:50:08 UTC] WordPress database error Table 'wp_e_events' already exists for query CREATE TABLE `wp_e_events` (
+			id bigint(20) unsigned auto_increment primary key,
+			event_data text null,
+			created_at datetime not null
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->create_table
+[05-Jun-2023 02:50:08 UTC] WordPress database error Duplicate key name 'created_at_index' for query ALTER TABLE wp_e_events
+    		ADD INDEX `created_at_index` (`created_at`)
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[05-Jun-2023 03:46:00 UTC] Sync process for Gutenberg Blocks has started.
+[05-Jun-2023 03:46:00 UTC] CATEGORY:Importing categories..
+[05-Jun-2023 03:46:00 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[05-Jun-2023 03:46:00 UTC] CATEGORY:Completed category import.
+[05-Jun-2023 03:46:00 UTC] BLOCK: Getting Total Blocks
+[05-Jun-2023 03:46:00 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[05-Jun-2023 03:46:00 UTC] BLOCK: Requests count 4
+[05-Jun-2023 03:46:00 UTC] BLOCK: Importing request 1 ..
+[05-Jun-2023 03:46:00 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[05-Jun-2023 03:46:00 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[05-Jun-2023 03:46:00 UTC] BLOCK: Completed request 1
+[05-Jun-2023 03:46:00 UTC] BLOCK: Importing request 2 ..
+[05-Jun-2023 03:46:00 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[05-Jun-2023 03:46:01 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[05-Jun-2023 03:46:01 UTC] BLOCK: Completed request 2
+[05-Jun-2023 03:46:01 UTC] BLOCK: Importing request 3 ..
+[05-Jun-2023 03:46:01 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[05-Jun-2023 03:46:01 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[05-Jun-2023 03:46:01 UTC] BLOCK: Completed request 3
+[05-Jun-2023 03:46:01 UTC] BLOCK: Importing request 4 ..
+[05-Jun-2023 03:46:01 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[05-Jun-2023 03:46:01 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[05-Jun-2023 03:46:01 UTC] BLOCK: Completed request 4
+[05-Jun-2023 03:46:01 UTC] SITE: Getting Total Sites
+[05-Jun-2023 03:46:01 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[05-Jun-2023 03:46:01 UTC] SITE: Request count 2
+[05-Jun-2023 03:46:01 UTC] SITE: Importing request 1 ..
+[05-Jun-2023 03:46:01 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[05-Jun-2023 03:46:01 UTC] SITE: Storing in option ast-block-templates-sites-1
+[05-Jun-2023 03:46:01 UTC] SITE: Completed request 1
+[05-Jun-2023 03:46:01 UTC] SITE: Importing request 2 ..
+[05-Jun-2023 03:46:01 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[05-Jun-2023 03:46:01 UTC] SITE: Storing in option ast-block-templates-sites-2
+[05-Jun-2023 03:46:01 UTC] SITE: Completed request 2
+[05-Jun-2023 03:46:01 UTC] Sync process for Gutenberg Blocks is done.
+[05-Jun-2023 04:49:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 04:49:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 04:52:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 04:52:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 04:55:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 04:55:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[05-Jun-2023 05:34:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
